@@ -1,5 +1,5 @@
 {
-  "name": "local-overleaf-ide",
+  "name": "scriptorium",
   "private": true,
   "workspaces": ["server", "web"]
 }

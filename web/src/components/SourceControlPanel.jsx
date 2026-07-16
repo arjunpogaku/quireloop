@@ -164,8 +164,9 @@ export default function SourceControlPanel({ projectId, beforeAction, readOnly }
             style={{ padding: 6, fontSize: 12 }}
           />
           <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
-            A GitHub/GitLab personal access token, or an Overleaf git token — used as the username, no password
-            needed. Stored locally for this project only, never committed.
+            A GitHub/GitLab personal access token, or an Overleaf git token (Overleaf: Account Settings → Git
+            integration; URL is https://git.overleaf.com/&lt;project id&gt;). Stored locally for this project only,
+            never committed.
           </div>
           <button type="submit" disabled={busy} style={{ fontSize: 12, justifySelf: 'start' }}>
             Save
